@@ -70,13 +70,11 @@ border-radius: 80px;
 /* Banner ended */
 
 
-.service-img{
-    height: 100%;
-    max-width: 100%;
-    max-height: 100px;
-   
+
+.market{
+  padding: 40px 0px;
 }
-.hovering{
+/* .hovering{
     padding: 1em 0;
     float: left;
     width: 50%;
@@ -92,8 +90,13 @@ border-radius: 80px;
     .hovering{
       width: 33.33333%;
     }
+  } */
+
+  /* Hovering section */
+  .hover{
+    display: flex;
+    flex-wrap: wrap;
   }
-  
   .hovering .title{
     color: #1a1a1a;
     text-align: center;
@@ -103,7 +106,7 @@ border-radius: 80px;
   .content {
     position: relative;
     width: 90%;
-    max-width: 400px;
+    max-width: 372px;
     margin: auto;
     overflow: hidden;
   }
@@ -169,6 +172,7 @@ border-radius: 80px;
     top: 60%;
 
   }
+  /* Hovering section ended */
  
   .service-img{
       filter: gray; 
@@ -180,7 +184,16 @@ border-radius: 80px;
         -webkit-filter: grayscale(0);
         -webkit-transform: scale(1.01);
       }
+      .service-img{
+        height: 100%;
+        max-width: 100%;
+        max-height: 100px;
+       
+    }
 
+
+
+/* Feature Project */
   .featured-box{
 overflow: hidden;
   }
@@ -215,6 +228,8 @@ overflow: hidden;
     max-height: 12px;
     margin: 4px;
   }
+/* Feature project ended*/
+
  
   /* cleinthead */
   .clienthead{
@@ -258,17 +273,15 @@ overflow: hidden;
  }
  .left-tag{
   width: 100%;
-  max-width: 80%;
  }
  .serve{
   width: 100%;
-  max-width: 80%;
  }
  .tabs-nav{
 list-style: none;
  }
  .tab-link{
-  margin-bottom: 28px;
+  margin-bottom: 40px;
     display: table;
     width: 100%;
     text-decoration: none;
@@ -285,7 +298,7 @@ list-style: none;
  {
      position: absolute;
      width: 100%;
-     top: 10px;
+     top: 14px;
      left: -30px;
      max-width: 25px;
      height: 2px;
@@ -334,3 +347,4 @@ margin: 10px;
 .highlight{
   padding: 40px 0px;
 }
+
