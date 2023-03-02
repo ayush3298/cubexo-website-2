@@ -67,6 +67,13 @@ border-radius: 80px;
   letter-spacing: 3px;
   text-align: start;
 }
+
+@media (max-width:400px){
+  .center-text{
+    font-size: 10px;
+  }
+}
+
 /* Banner ended */
 
 
@@ -298,7 +305,7 @@ list-style: none;
  {
      position: absolute;
      width: 100%;
-     top: 14px;
+     top: 12px;
      left: -30px;
      max-width: 25px;
      height: 2px;
