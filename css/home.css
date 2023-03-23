@@ -357,6 +357,7 @@
 .right-tag {
   float: right;
 }
+
 @media (max-width:768px){
   .tabs-nav{
   display: flex;

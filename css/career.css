@@ -58,7 +58,22 @@
 
 
 }
+@media(max-width:991px){
+   .career{
+    margin-top: 0px;
+    column-gap: 86px;
+   }
+   
+    .career1{
+        max-width: 290px;
+        margin-top: 20px;
 
+    }
+    .career2{
+        max-width: 290px;
+        margin-top: 24px;
+    }
+}
 
 
 .location-col {
