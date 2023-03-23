@@ -191,6 +191,16 @@
         display: none;
     }
 }
+@media(max-width:991px){
+    .lining5{
+        margin-left: 300px;
+       margin-top:38px;
+    }
+    .lining2{
+       
+       margin-top:165px;
+    }
+}
 @media(max-width:767px){
     .img-liner {
         width: 100%;
@@ -215,6 +225,8 @@
         
 
 }
+
+
 @media(max-width:451px){
     .lining{
         column-gap: 0px;
