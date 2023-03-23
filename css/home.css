@@ -572,3 +572,8 @@
 .link1:hover{
   color: #1BBC9B;
 }
+@media(max-width:991px){
+  .content{
+    max-width: 308px;
+  }
+}
