@@ -97,11 +97,31 @@
     color: #36373b;
     font-size: 18px;
     font-family: quicksand,sans-serif;
-    margin-left: 55px;
+    margin-left: 46px;
 }
 .lining2{
     text-align: center;
-    margin-top: 11px;
+    color: #36373b;
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-left: 60px;
+}
+.lining3{
+    text-align: center;
+    color: #36373b;
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-left: 48px;
+}
+.lining4{
+    text-align: center;
+    color: #36373b;
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-left: 35px;
+}
+.lining5{
+    text-align: center;
     color: #36373b;
     font-size: 18px;
     font-family: quicksand,sans-serif;
@@ -114,6 +134,26 @@
     margin-top: 30px;
 }
 .liner-text1{
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-top: 10px;
+}
+.liner-text2{
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-top: 10px;
+}
+.liner-text3{
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-top: 10px;
+}
+.liner-text4{
+    font-size: 18px;
+    font-family: quicksand,sans-serif;
+    margin-top: 10px;
+}
+.liner-text5{
     font-size: 18px;
     font-family: quicksand,sans-serif;
     margin-top: 10px;
@@ -146,6 +186,187 @@
     margin:50px auto;
     text-align:center;
   }  */
+@media(max-width:1047px){
+    .liner{
+        display: none;
+    }
+}
+@media(max-width:767px){
+    .img-liner {
+        width: 100%;
+        max-height: 150px;
+        border: 8px solid #747474;
+        border-radius: 80px;
+        padding: 8px;
+        max-width: 100px;
+    }
+    .lining2{
+        margin-top: -50px;
+    }
+    .lining4{
+        margin-top: -54px;
+    }
+    .lining3{
+        margin-left: 20px;
+    }
+    .lining5{
+        margin-left: 54px;
+        }
+        
+
+}
+@media(max-width:451px){
+    .lining{
+        column-gap: 0px;
+    }
+    .img-liner {
+        width: 100%;
+        max-height: 150px;
+        border: 8px solid #747474;
+        border-radius: 80px;
+        padding: 8px;
+        max-width: 100px;
+    }
+    .lining2{
+        margin-top: -50px;
+    }
+    .lining4{
+        margin-top: -54px;
+    }
+    .lining3{
+        margin-left: 20px;
+    }
+    .lining5{
+        margin-left: 51px;
+        }
+
+}
+@media(max-width:400px){
+    .lining{
+        column-gap: 0px;
+    }
+    .img-liner {
+        width: 100%;
+        max-height: 150px;
+        border: 4px solid #747474;
+        border-radius: 80px;
+        padding: 8px;
+        max-width: 75px;
+    }
+    .lining1{
+        margin-left: 30px;
+    }
+    .lining2{
+        margin-top: -50px;
+        margin-left: 40px;
+    }
+    .lining4{
+        margin-top: -53px;
+        margin-left: 20px;
+    }
+    .lining3{
+        margin-left: 0px;
+    }
+    .lining5{
+        margin-left: 44px;
+        }
+
+}
+@media(max-width:364px){
+    .lining{
+        column-gap: 0px;
+    }
+    .img-liner {
+        width: 100%;
+        max-height: 150px;
+        border: 2px solid #747474;
+        border-radius: 80px;
+        padding: 8px;
+        max-width: 50px;
+    }
+    .lining1{
+        margin-left: 30px;
+    }
+    .lining2{
+        margin-top: -50px;
+        margin-left: 29px;
+    }
+    .lining4{
+        margin-top: -47px;
+        margin-left: 20px;
+    }
+    .lining3{
+        margin-left: 4px;
+    }
+    .lining5{
+        margin-left: 39px;
+        }
+.liner-text1{
+ font-size: 14px;
+}
+.liner-text2{
+    font-size: 14px;
+
+}
+.liner-text3{
+    font-size: 14px;
+
+}
+.liner-text4{
+    font-size: 14px;
+
+}
+.liner-text5{
+    font-size: 14px;
+
+}
+}
+
+
+
+
+
+/* @media(max-width:767px){
+    .lining{
+        column-gap: 6px;
+    }
+    .liner-text1 {
+        font-size: 10px;    }
+    .lining1{
+        margin-left: 15px;
+        }
+    .lining2{
+        margin-left: 32px; 
+     }
+    .img-liner {
+        width: 100%;
+        max-height: 120px;
+        border: 3px solid #747474;
+        border-radius: 80px;
+        padding: 3px;
+        max-width: 33px;   
+    }
+    .liner{
+        top: -37px;
+        }
+}
+@media(max-width:576px){
+   
+    .liner{
+        top: -37px;
+        display: none;
+        }
+}
+@media(max-width:5px){
+} */
+
+
+
+
+
+
+
+
 
   @media(max-width:991px){
     .arrow-img2 {
