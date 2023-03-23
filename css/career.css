@@ -74,11 +74,27 @@
         margin-top: 24px;
     }
 }
+@media(max-width:767px){
+    .career{
+        }
+    
+     .career1{
+        margin-top: 20px;
+        min-width: 100%;
+ 
+     }
+     .career2{
+        margin-top: 24px;
+        min-width: 100%;
 
-
-.location-col {
-    text-align: end;
+     }
+ }
+@media(max-width:575px){
+    .location-col{
+           float: left;
+    }
 }
+
 
 .apply {
     color: #1BBC9B;
