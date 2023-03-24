@@ -27,6 +27,7 @@
   font-size: 18px;
   line-height: 30px;
   color: #36373b;
+  padding: 20px;
 }
 
 .navbar .navbarlist .list:hover {
@@ -47,6 +48,7 @@
 
   background: #1BBC9B;
   border-radius: 80px;
+  padding:4px
 }
 
 .navbarlist {
@@ -576,4 +578,34 @@
   .content{
     max-width: 308px;
   }
+}
+#exampleModal .modal-dialog{
+  max-width:100%;
+}
+
+#exampleModal .modal-content{
+  border-radius:35px;
+}
+#exampleModal .btn-close{
+  position: absolute;
+  right: 48px;
+  top: 38px;
+  padding: 0;
+}
+
+@media(max-width:1047px){
+  #exampleModal .btn-close{
+    right: 39px;
+    top: 31px;
+    }
+}
+@media(max-width:767px){
+  #exampleModal .btn-close{
+    right: 29px;
+    top: 25px;
+    max-height: 10px;
+    }
+    #exampleModal .modal-dialog{
+      max-width:100%;
+    }
 }
