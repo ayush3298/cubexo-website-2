@@ -2,12 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 /* About banner */
-
+body{
+    font-family: quicksand,sans-serif;
+  
+  }
 .thumbnail {
     position: relative;
     margin-bottom: 0;
     border: 0;
     border-color: transparent;
+    margin-top: 95px;
 
 }
 
