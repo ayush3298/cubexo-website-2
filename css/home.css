@@ -727,7 +727,9 @@ background-color: #fff;
 }
 
 #exampleModal .modal-dialog{
-  max-width:100%;
+  max-width:70%;
+  margin: auto;
+  margin-top: 50px;
 }
 
 #exampleModal .modal-content{
@@ -752,9 +754,7 @@ background-color: #fff;
     top: 25px;
     max-height: 10px;
     }
-    #exampleModal .modal-dialog{
-      max-width:100%;
-    }
+  
 }
 
 .modal{
@@ -768,122 +768,7 @@ background-color: #fff;
     overflow-x: hidden;
     overflow-y: auto;
     outline: 0;
-    max-width: 65%;
-    left: 18%;
 }
 #exampleModal .modal-content {
   border-radius: 0px;
 }
-@media(max-width:1047px){
-  .modal{
-    top: -45px;
-  }
-  #exampleModal .btn-close {
-    top: 20px;
-}
-}
-@media(max-width:1024px){
-  .modal {
-    top: -11px;
-}
-}
-@media(max-width:912px){
-  .modal {
-    top: -410px;
-}
-}
-@media(max-width:865px){
-  .modal{
-    top: -75px;
-  }
-  #exampleModal .btn-close {
-    right: 22px;
-    top: 16px;
-}
-  
-}
-@media(max-width:820px){
-  .modal {
-    top: -336px;
-}
-}
-@media(max-width:768px){
-  .modal {
-    top: -272px;
-}
-}
-@media(max-width:734px){
-  .modal{
-    top: -100px;
-  }
-  #exampleModal .btn-close {
-    right: 18px;
-    top: 17px;
-    max-height: 10px;
-}
-}
-@media(max-width:630px){
-  .modal{
-    top: -165px;
-  }
-}
-
-@media(max-width:414px){
-  .modal {
-    top: -275px;
-}
-}
-
-@media(max-width:412px){
-  .modal {
-    top: -286px;
-}
-#exampleModal .btn-close {
-  right: 10px;
-  top: 9px;
-  max-height: 10px;
-}
-}
-
-@media(max-width:400px){
-  .modal {
-    top: -445px;
-}
-#exampleModal .btn-close {
-  right: 10px;
-  top: 11px;
-  max-height: 7px;
-}
-}
-
-@media(max-width:393px){
-  .modal {
-    top: -293px;
-}
-}
-@media(max-width:390px){
-  .modal {
-    top: -290px;
-}
-#exampleModal .btn-close {
-  right: 8px;
-  top: 10px;
-  max-height: 7px;
-}
-}
-@media(max-width:375px){
-  .modal {
-    top: -201px;
-}
-#exampleModal .btn-close {
-  right: 8px;
-  top: 10px;
-  max-height: 7px;
-}
-}
-@media(max-width:360px){
-  .modal {
-    top: -236px;
-}
-}
-/* Popup ended */
