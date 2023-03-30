@@ -99,8 +99,8 @@ body {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #f8f9fa;
-  padding: 10px;
+  background-color: #fff;
+  padding: 9px;
   min-width: 200px;
   text-align: center;
   z-index: 1;
@@ -458,6 +458,31 @@ body {
 
 }
 
+.client-section{
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+
+.client-img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.client-img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.client-img {
+  height: 100%;
+  max-width: 100%;
+
+}
+
+
 /* Clients section End*/
 
 
@@ -573,16 +598,12 @@ body {
   width: 100%;
 }
 
-.main-footer {
-  display: flex;
-  flex-wrap: wrap;
-  padding-left: 9%;
-  column-gap: 48px;
+.main-items{
+  width: fit-content;
+  margin: auto;
 }
 
-.main-items {
-  min-width: 30%;
-}
+
 
 .item {
   color: #36373b;
@@ -623,7 +644,7 @@ body {
 
 }
 
-@media all and (min-width:1400px) and (max-width:3000px) {
+/* @media all and (min-width:1400px) and (max-width:3000px) {
   .main-footer {
     column-gap: 57px
   }
@@ -678,7 +699,7 @@ body {
     column-gap: 23px;
     padding-left: 6%;
   }
-}
+} */
 
 .market {
   padding: 40px 0px 0px;
@@ -740,7 +761,6 @@ body {
 #exampleModal .modal-dialog {
   max-width: 70%;
   margin: auto;
-  margin-top: 50px;
 }
 
 #exampleModal .modal-content {
