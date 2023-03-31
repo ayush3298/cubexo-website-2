@@ -780,6 +780,38 @@ body {
   padding: 0;
 }
 
+@media all and (min-width:1580px) and (max-width:1630px) {
+  #exampleModal .btn-close {
+    right: 80px;
+    top: 31px;
+  }
+}
+
+@media all and (min-width:1631px) and (max-width:1700px) {
+  #exampleModal .btn-close {
+    right: 150px;
+    top: 31px;
+  }
+}
+@media all and (min-width:1701px) and (max-width:1800px) {
+  #exampleModal .btn-close {
+    right: 210px;
+    top: 31px;
+  }
+}
+@media all and (min-width:1801px) and (max-width:1900px) {
+  #exampleModal .btn-close {
+    right: 260px;
+    top: 31px;
+  }
+}
+@media all and (min-width:1901px) and (max-width:2000px) {
+  #exampleModal .btn-close {
+    right: 300px;
+    top: 31px;
+  }
+}
+
 @media(max-width:1047px) {
   #exampleModal .btn-close {
     right: 39px;
