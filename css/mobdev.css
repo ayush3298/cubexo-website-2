@@ -385,12 +385,19 @@ body {
 
     .lining5 {
         margin-left: 108px;
-        margin-top: 48px;
+        margin-top: 5px;
     }
 
     .lining4 {
         margin-left: 75px;
     }
+}
+
+@media all and (min-width:1200px) and (max-width:1399px) {
+.lining5{
+    margin-left: 72px;
+}
+
 }
 
 @media(max-width:1047px) {

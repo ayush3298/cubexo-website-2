@@ -477,7 +477,6 @@ body {
 }
 
 .client-img {
-  height: 100%;
   max-width: 100%;
 
 }
@@ -641,6 +640,13 @@ body {
   font-weight: 400;
   font-size: 16px;
   margin: 10px;
+  text-align: left;
+
+}
+.copy-div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 
 }
 

@@ -9,7 +9,7 @@ body {
     color: white;
     border-radius: 10px;
     font-size: 14px;
-    padding: 6px;
+    padding: 12px;
 }
 
 @media(max-width:440px) {
@@ -261,28 +261,35 @@ body {
 }
 
 .order-list {
+    max-width: 350px;
+    counter-reset: my-awesome-counter;
     list-style: none;
-    counter-reset: item;
 }
 
 .order-item {
-    counter-increment: item;
-    margin-bottom: 30px;
-    font-family: quicksand, sans-serif;
-    font-weight: 600;
+    margin: 0 0 0.5rem 10px;
+  counter-increment: my-awesome-counter;
+  position: relative;
+  font-size: 18px;
+  font-family: quicksand, sans-serif;
+  font-weight: bold;
+
 }
 
 .order-item:before {
-    margin-right: 10px;
-    content: counter(item);
-    border-radius: 100%;
-
-    border: 2px solid #1BBC9B;
-    width: 1.8em;
+    content: counter(my-awesome-counter);
+    color:#000000;
+    font-size: 18px;
+    position: absolute;
+    --size: 32px;
+    left: calc(-1 * var(--size) - 10px);
+    line-height: var(--size);
+    width: var(--size);
+    height: var(--size);
+    top: 0;
+   border: 2px solid   #1BBD98;;
+    border-radius: 50%;
     text-align: center;
-    display: inline-block;
-    padding: 1px;
-    color: black;
 }
 
 .small-text {
@@ -546,4 +553,9 @@ body {
 
 .contact-text {
     margin-top: -15px;
+}
+.span-item{
+    border-radius: 100%;
+    border: 2px solid#1BBC9B;
+    padding: 10px;
 }
