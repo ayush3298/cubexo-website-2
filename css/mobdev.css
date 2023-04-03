@@ -712,3 +712,23 @@ body {
     }
 
 }
+
+.industry-img{
+    width: 100%;
+}
+.industry{
+
+    text-align: center;
+}
+.industry1{
+    border: #36373b;
+}
+.industry2{
+    margin-top: 35px;
+}
+.industry-text1{
+    margin-top: 30px;
+}
+.industry-text{
+    margin-top: -10px;
+}
