@@ -775,58 +775,11 @@ body {
 
 #exampleModal .btn-close {
   position: absolute;
-  right: 31px;
-  top: 26px;
+  right: 4%;
+  top: 8%;
   padding: 0;
 }
 
-@media all and (min-width:1580px) and (max-width:1630px) {
-  #exampleModal .btn-close {
-    right: 80px;
-    top: 31px;
-  }
-}
-
-@media all and (min-width:1631px) and (max-width:1700px) {
-  #exampleModal .btn-close {
-    right: 150px;
-    top: 31px;
-  }
-}
-@media all and (min-width:1701px) and (max-width:1800px) {
-  #exampleModal .btn-close {
-    right: 210px;
-    top: 31px;
-  }
-}
-@media all and (min-width:1801px) and (max-width:1900px) {
-  #exampleModal .btn-close {
-    right: 260px;
-    top: 31px;
-  }
-}
-@media all and (min-width:1901px) and (max-width:2000px) {
-  #exampleModal .btn-close {
-    right: 300px;
-    top: 31px;
-  }
-}
-
-@media(max-width:1047px) {
-  #exampleModal .btn-close {
-    right: 39px;
-    top: 31px;
-  }
-}
-
-@media(max-width:767px) {
-  #exampleModal .btn-close {
-    right: 29px;
-    top: 25px;
-    max-height: 10px;
-  }
-
-}
 
 .modal {
   position: fixed;
@@ -843,4 +796,12 @@ body {
 
 #exampleModal .modal-content {
   border-radius: 0px;
+}
+@media all and (min-width:1600px) and (max-width:3000px){
+#exampleModal .btn-close {
+  position: absolute;
+  right: 22%;
+  top: 6%;
+  padding: 0;
+}
 }
