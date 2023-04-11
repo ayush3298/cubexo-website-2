@@ -117,6 +117,11 @@ body {
     color: white;
 }
 
+@media(max-width:400px) {
+    .card-title{
+        font-size: 16px;
+    }
+}
 .value-col {
     margin-bottom: 20px;
     /* margin: 10px; */

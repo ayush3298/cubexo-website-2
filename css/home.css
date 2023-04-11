@@ -3,9 +3,23 @@
 
 body {
   font-family: quicksand, sans-serif;
-
+  overflow-y: scroll; /* Show vertical scrollbar */
+  }
+::-webkit-scrollbar {
+  width: 13px;
 }
 
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
 .margin-container {
   padding-left: 15px;
   padding-right: 15px;
@@ -786,8 +800,8 @@ text-decoration: none;
   top: 3%;
   max-width: 31px;
   border: none;
-  padding: 3px;
-  border-radius: 8px;
+  padding:2px 0px 4px 1px;
+    border-radius: 8px;
   background: #000000;
 }
 

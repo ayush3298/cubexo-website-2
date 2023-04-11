@@ -139,7 +139,7 @@ body {
 .apply {
     color: #1BBC9B;
     text-decoration: none;
-    margin-left: 10px;
+    margin-left: 30px;
 }
 
 .apply:hover {
@@ -344,7 +344,15 @@ body {
     max-height: 20px;
     margin-left: -9px;
 }
-
+.yellow-arrow1 {
+    max-height: 20px;
+    margin-left: -9px;
+}
+@media all and (min-width:768px) and (max-width:1920px){
+    .yellow-arrow1{
+          display: none;
+    }
+}
 .data-text {
     font-family: quicksand, sans-serif;
     font-size: 16px;
@@ -352,129 +360,13 @@ body {
     text-align: center;
     margin-top: 10px;
 }
-
-@media(max-width:991px) {
-    .data-text {
-        margin-left: 9px;
-        font-size: 14px;
+@media all and (min-width:280px) and (max-width:991px){
+    .yellow-arrow{
+        display: none;
     }
-
-    .yellow-arrow {
-        margin-left: 37px;
+    .yellow-arrow1{
+        display: none;
     }
-}
-
-@media(max-width:767px) {
-    .data-text {
-        margin-left: 14px;
-        font-size: 14px;
-    }
-
-    .yellow-arrow {
-        margin-left: 37px;
-    }
-
-    .data-row {
-        column-gap: 126px;
-    }
-}
-
-@media(max-width:575px) {
-    .data-text {
-        margin-left: -15px;
-        font-size: 14px;
-    }
-
-    .yellow-arrow {
-        margin-left: 102px;
-    }
-
-    .data-row {
-        column-gap: 0px;
-    }
-
-    .data-image {
-        max-height: 90px;
-        border-radius: 100%;
-        border: 8px solid #1BBC9B;
-        padding: 15px;
-        margin-left: 70px;
-    }
-}
-
-@media(max-width:512px) {
-    .data-text {
-        margin-left: -35px;
-        font-size: 14px;
-    }
-
-    .yellow-arrow {
-        margin-left: 68px;
-    }
-
-    .data-row {
-        column-gap: 0px;
-    }
-
-    .data-image {
-        max-height: 90px;
-        border-radius: 100%;
-        border: 8px solid #1BBC9B;
-        padding: 15px;
-        margin-left: 35px;
-    }
-}
-
-@media(max-width:480px) {
-    .data-text {
-        margin-left: -25px;
-        font-size: 14px;
-    }
-
-}
-
-@media(max-width:415px) {
-    .data-text {
-        margin-left: -20px;
-        font-size: 14px;
-    }
-
-}
-
-@media(max-width:390px) {
-    .data-text {
-        margin-left: -2px;
-        font-size: 14px;
-    }
-
-}
-
-@media(max-width:360px) {
-    .data-text {
-        margin-left: -26px;
-        font-size: 14px;
-    }
-
-    .data-image {
-        max-height: 74px;
-        border-radius: 100%;
-        border: 5px solid #1BBC9B;
-        padding: 9px;
-        margin-left: 25px;
-
-    }
-
-    .yellow-arrow {
-        margin-left: 50px;
-    }
-}
-
-@media(max-width:340px) {
-    .data-text {
-        margin-left: 10px;
-        font-size: 14px;
-    }
-
 }
 
 /* data science page ended */
@@ -557,5 +449,28 @@ body {
 .span-item{
     border-radius: 100%;
     border: 2px solid#1BBC9B;
+    padding: 10px;
+}
+.location{
+    text-align: end;
+}
+.job{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,.13);
+    padding: 10px 15px 0px 10px;
+
+}
+
+
+@media(max-width:447px){
+    .job{
+        display: table;
+    }
+  .job-heading{
+    justify-content: left;
+  }
+}
+.Jobs{
     padding: 10px;
 }
