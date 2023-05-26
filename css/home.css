@@ -33,6 +33,114 @@ body {
   height: 100%;
   max-height: 60px;
 }
+.image-slide{
+  height: auto;
+  max-width: 100%;
+}
+
+.slider {
+  height: 90px;
+  position: relative;
+    width: 100%;
+  
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+  }
+  .slider::before,
+  .slider::after{
+    position:absolute;
+    background-image: linear-gradient(to right,rgb(255 255 255 / 0%) 0%,rgba(0,0,0,0) 100%);   
+   
+    content:'';
+    height:100%;
+    width:25%;
+    z-index:2;
+    pointer-events:none;
+  }
+  .slider::before{
+    left:0;
+    top:0;
+  }
+  .slider::after{
+    right:0;
+    top:0;
+    transform:rotateZ(180deg);
+  }
+  
+  /*  IMPORTANT CODE BELOW */
+  
+ 
+  
+  .slide-track2 {
+    width: calc(217px * 13);
+    display: flex;
+    animation: scroll2 15s linear infinite;
+    justify-content: space-between;
+  }
+  
+  .slide {
+    width: 150px;
+    height: 60px;
+  
+    display: grid;
+    place-items: center;
+    transition:0.5s;
+    cursor:pointer;
+  }
+  .slide:hover{
+    transform:scale(0.8)
+  }
+  
+  @keyframes scroll {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(calc(150px * 10));
+    }
+  }
+  
+  @keyframes scroll2 {
+    0% {
+      transform: translateX(0px);
+    }
+    100% {
+      transform: translateX(calc(-150px * 5));
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .slide-track {
+      width: calc(80px * 20);
+    }
+  
+    .slide-track2 {
+      width: calc(80px * 15);
+    }
+  
+    .slide {
+      width: 80px;
+    }
+  
+    @keyframes scroll {
+      0% {
+        transform: translateX(0px);
+      }
+      100% {
+        transform: translateX(calc(-80px * 10));
+      }
+    }
+  
+    @keyframes scroll2 {
+      0% {
+        transform: translateX(0px);
+      }
+      100% {
+        transform: translateX(calc(-80px * 5));
+      }
+    }
+  }
 
 @media(max-width:400px) {
   .one {
@@ -496,6 +604,24 @@ body {
 }
 
 
+.client1-img {
+  filter: gray;
+  -webkit-filter: grayscale(1);
+  -webkit-transition: all .2s ease-in-out;
+}
+
+.client1-img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.client1-img {
+  max-width: 50%;
+
+}
+
+
 /* Clients section End*/
 
 
@@ -852,3 +978,5 @@ text-decoration: none;
   padding: 0;
 }
 }
+
+
