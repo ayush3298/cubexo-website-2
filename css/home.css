@@ -222,7 +222,7 @@ body {
 }
 
 .navbar-light .navbar-toggler {
-  color: rgba(0, 0, 0, .0);
+  /* color: rgba(0, 0, 0, .0); */
   border-color: rgba(0, 0, 0, .0);
 }
 
@@ -1238,3 +1238,9 @@ text-decoration: none;
 .services-page__hover-read-more:hover {
   color: var(--sinace-white);
 }
+/* .navbar-toggler>.close {
+  display:inline;
+}
+.navbar-toggler.collapsed>.close, .navbar-toggler:not(.collapsed)>.navbar-toggler-icon {
+  display:none;
+} */
