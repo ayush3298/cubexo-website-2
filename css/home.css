@@ -47,6 +47,20 @@ body {
     place-items: center;
     overflow: hidden;
   }
+  .hovers_heading{
+     
+    padding:30px;
+    margin-top:-60px
+  }
+
+  .content-description{
+    display: none;
+  }
+  .content:hover .content-description{
+      display: block;
+      color:#1BBC98;
+  }
+
   .slider::before,
   .slider::after{
     position:absolute;
@@ -294,8 +308,9 @@ body {
 .centered {
   position: absolute;
   top: 50%;
-  left: 38%;
+  left: 31%;
   transform: translate(-50%, -50%);
+  
 
 }
 
@@ -1068,6 +1083,7 @@ text-decoration: none;
 .services-page__text {
   margin-top: 11px;
   margin-bottom: 6px;
+  height:90px
 }
 
 .services-page__read-more {

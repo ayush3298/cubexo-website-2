@@ -1,0 +1,30 @@
+.Images_text{
+    display:flex;
+    gap:160px;
+}
+.Images_text_content{
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    justify-content: center;
+    width:50%;
+
+}
+.box_content{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 30px;
+}
+.parent_box_content{
+display: flex;
+gap:70px;
+justify-content: center;
+ 
+
+}
+ img{
+    max-width: 100%;
+ }
