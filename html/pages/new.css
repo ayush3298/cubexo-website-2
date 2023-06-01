@@ -1,0 +1,17 @@
+.scroll-container {
+    height: 100vh; /* Set the desired height */
+    overflow-y: scroll;
+  }
+  
+  .logo-container {
+    height: 100vh; /* Set the desired height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .logo {
+    /* Set the desired width and height for your logo */
+    transition: transform 0.5s; /* Animation transition */
+  }
+  

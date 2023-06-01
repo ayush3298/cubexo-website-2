@@ -19,12 +19,29 @@
     padding: 30px;
 }
 .parent_box_content{
-display: flex;
-gap:70px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap:80px;
 justify-content: center;
  
-
 }
  img{
     max-width: 100%;
  }
+
+ @media (max-width:1047px) {
+     .parent_box_content{
+        grid-template-columns: repeat(3,1fr);
+     }
+  }
+  @media (max-width:800px) {
+    .parent_box_content{
+       grid-template-columns: repeat(2,1fr);
+    }
+
+ }
+ @media (max-width:400px) {
+    .parent_box_content{
+       grid-template-columns: repeat(1,1fr);
+    }
+}

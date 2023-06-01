@@ -106,7 +106,7 @@
     <div class="container">
       <h2 class="apply-text">Apply for this position<img class="center-vector" src="../../images/vector.png" /></h2>
       <form method="POST"
-        action="https://getform.io/f/f983ef78-54f7-4541-b061-9e3fcd684b2a"
+        action="https://getform.io/f/d8b383c0-d269-401a-8a0f-724f0f8a1212"
         enctype="multipart/form-data">
         <label class="form-label" for="fname">Name*</label><br>
         <input class="form-input" type="text" id="fname" name="Name" required><br>
@@ -116,6 +116,9 @@
         <input class="form-input" type="number" id="number" name="Number" required><br>
         <label class="form-label" for="Experience">Experience*</label><br>
         <input class="form-input" type="experience" id="experience" name="Experience" required><br>
+        <label class="form-label" for="Skills">Skills*</label><br>
+        <input class="form-input" type="text" id="skills" name="skills" required><br>
+
 
         <p>Upload CV/Resume</p>
         <input type="file" name="attachment" accept="file"><br /><br />
@@ -236,5 +239,14 @@
   <script src="//code.tidio.co/fk51al7g8pbghgqzkfqspb7tnvf8bupq.js" async></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+
+    <script>
+    
+    let arr=JSON.parse(localStorage.getItem("skills"));
+
+    document.getElementById("skills").value=arr;
+     
+
     </script>
 </body>
