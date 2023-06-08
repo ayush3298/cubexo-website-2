@@ -189,8 +189,8 @@
         <h2 class="apply-text">Front-End<img class="center-vector" src="../" /></h2>
 
         <div id="frontend" class="frontend tab-content">
-            <a onclick="handle(event)" href="#"><img src="../../images/newicon/React js.png" alt="ReactJS" width="50" height="50"
-                    loading="lazy"><span>React.js</span></a>
+           <div onclick="handle(event)"><a  href="#"><img src="../../images/newicon/React js.png" alt="ReactJS" width="50" height="50"
+                    loading="lazy"><span>React.js</span></a></div>
             <a onclick="handle(event)" href="#"><img src="../../images/newicon/Angular.png" alt="Angular" width="50" height="50"
                     loading="lazy"><span>AngularJS</span></a>
             <a onclick="handle(event)" href="#"><img src="../../images/newicon/Html.png" alt="HTML5" width="50" height="50"
@@ -378,7 +378,10 @@
      
     let arr=JSON.parse(localStorage.getItem("skills")) || [];
        function handle(event){
-        console.log("line no 378"+event.target.lastChild.innerText)
+
+        
+
+        console.log("line no 378"+event.target.lastChild.innerText) 
 
         if(event.target.lastChild.innerText==undefined)
         {
