@@ -889,28 +889,28 @@ text-decoration: none;
   padding: 40px 0px;
 }
 
-.vector {
+. {
   max-height: 12px;
   margin-top: 10px;
   margin-left: 2px;
 }
 
 @media(max-width:400px) {
-  .vector {
+  . {
     max-height: 10px;
     margin-top: 10px;
   }
 
 }
 
-.center-vector {
+.center- {
   max-height: 12px;
   margin-top: 10px;
   margin-left: 2px;
 }
 
 @media(max-width:400px) {
-  .center-vector {
+  .center- {
     max-height: 8px;
     margin-top: 4px;
   }
