@@ -432,6 +432,80 @@
 
 
         <!-- <script src="//code.tidio.co/fk51al7g8pbghgqzkfqspb7tnvf8bupq.js" async></script> -->
+
+        <script>
+                let arr=JSON.parse(localStorage.getItem("skills")) || [];
+                   function handle(event){
+                    if(event.target.src)
+                    {
+                        if(event.target.parentNode.style.background =="rgb(27, 188, 152)")
+                    {
+                        event.target.parentNode.style.background="linear-gradient(to right,#F4F2FF,#FFFFFF)";
+                        event.target.parentNode.lastChild.style.color="black"
+                        if(arr.includes(event.target.parentNode.lastChild.innerText))
+                        {
+                            let n=arr.indexOf(event.target.parentNode.lastChild.innerText);
+                            arr.splice(n,1);
+                            localStorage.setItem("skills",JSON.stringify(arr));
+                        }
+                    }
+                    else{
+                        event.target.parentNode.style.background ="rgb(27, 188, 152)"
+                        event.target.parentNode.lastChild.style.color="white"
+                         if(!arr.includes(event.target.parentNode.lastChild.innerText)){
+                           arr.push(event.target.parentNode.lastChild.innerText);
+                           localStorage.setItem("skills",JSON.stringify(arr));
+                         }
+                    }
+            return null;
+                    }
+                    if(event.target.lastChild.innerText==undefined)
+                    {
+                        console.log(event.target.lastChild.innerText)
+                        if(event.target.parentNode.style.background =="rgb(27, 188, 152)")
+                    {
+                        event.target.parentNode.style.background="linear-gradient(to right,#F4F2FF,#FFFFFF)";
+                        event.target.style.color="black"
+                        if(arr.includes(event.target.innerText))
+                        {
+                            let n=arr.indexOf(event.target.innerText);
+                            arr.splice(n,1);
+                            localStorage.setItem("skills",JSON.stringify(arr));
+                        }
+                    }
+                    else{
+                        event.target.parentNode.style.background ="rgb(27, 188, 152)"
+                        event.target.style.color="white"
+                         if(!arr.includes(event.target.innerText)){
+                           arr.push(event.target.innerText);
+                           localStorage.setItem("skills",JSON.stringify(arr));
+                         }
+                    }
+                        return null
+                    }
+                    console.log(event.target.lastChild.innerText);
+                    if(event.target.style.background =="rgb(27, 188, 152)")
+                    {
+                        event.target.style.background="linear-gradient(to right,#F4F2FF,#FFFFFF)";
+                        event.target.lastChild.style.color="black"
+                        if(arr.includes(event.target.lastChild.innerText))
+                        {
+                            let n=arr.indexOf(event.target.lastChild.innerText);
+                            arr.splice(n,1);
+                            console.log(arr);
+                            localStorage.setItem("skills",JSON.stringify(arr));
+                        }
+                    }
+                    else{
+                        event.target.style.background ="rgb(27, 188, 152)"
+                        event.target.lastChild.style.color="white"
+                         if(!arr.includes(event.target.lastChild.innerText)){
+                           arr.push(event.target.lastChild.innerText);
+                           localStorage.setItem("skills",JSON.stringify(arr));
+                         }
+                    }
+                   }
+            </script>     
 </body>
 
 </html>
@@ -452,44 +526,3 @@
         })();
         </script>
         <!--End of Tawk.to Script-->
-<script>
-
-
-        let arr = JSON.parse(localStorage.getItem("skills")) || [];
-        function handle(event) {
-
-                if (event.target.lastChild.innerText == undefined) {
-                        console.log(event.target.lastChild.innerText)
-                        return null;
-                }
-
-                console.log(event.target.lastChild.innerText);
-
-                if (event.target.style.background == "rgb(27, 188, 152)") {
-                        event.target.style.background = "linear-gradient(to right,#F4F2FF,#ffffff)";
-                        event.target.lastChild.style.color = "black"
-                        if (arr.includes(event.target.lastChild.innerText)) {
-                                let n = arr.indexOf(event.target.lastChild.innerText);
-
-                                arr.splice(n, 1);
-                                console.log(arr);
-                                localStorage.setItem("skills", JSON.stringify(arr));
-                        }
-                }
-                else {
-                        event.target.style.background = "rgb(27, 188, 152)"
-                        event.target.lastChild.style.color = "white"
-                        if (!arr.includes(event.target.lastChild.innerText)) {
-                                arr.push(event.target.lastChild.innerText);
-                                localStorage.setItem("skills", JSON.stringify(arr));
-
-                        }
-
-
-                }
-
-
-
-        }
-
-</script>
