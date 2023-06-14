@@ -55,7 +55,7 @@
   <section class="custum-navbar">
     <div class="container">
       <nav class="navbar navbar-expand-lg navbar-light ">
-        <a class="navbar-brand" href="../index.html ">
+        <a aria-label="homepage" class="navbar-brand" href="../index.html ">
           <img class='one' src="../../images/Logo.png" alt="say " />
         </a>
         <button class="navbar-toggler togglebutton" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -71,15 +71,15 @@
                 <a href="../About.html" class="nav-link list">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link list">Services</a>
+                <a aria-label="service-page navigate" class="nav-link list">Services</a>
                 <div class="dropdown-content">
                   <div class="text-dropdown" style="margin:13px; text-align: initial;">
-                    <a class="link1" href="../Web.html">Web Development</a><br />
-                    <a class="link1" href="../Mobile.html">Mobile Development</a><br />
-                    <a class="link1" href="../Iot.html">IOT Solution</a><br />
-                    <a class="link1" href="../Datascience.html">Data Science</a><br />
-                    <a class="link1" href="../Quality.html">Quality Analysis</a><br />
-                    <a class="link1" href="../Geeks.html">Geeks on Demand</a><br />
+                    <a aria-label="web" class="link1" href="../Web.html">Web Development</a><br />
+                    <a aria-label="web" class="link1" href="../Mobile.html">Mobile Development</a><br />
+                    <a aria-label="web" class="link1" href="../Iot.html">IOT Solution</a><br />
+                    <a aria-label="web" class="link1" href="../Datascience.html">Data Science</a><br />
+                    <a aria-label="web" class="link1" href="../Quality.html">Quality Analysis</a><br />
+                    <a aria-label="web" class="link1" href="../Geeks.html">Geeks on Demand</a><br />
                   </div>
                 </div>
               </li>
@@ -100,84 +100,9 @@
   <!-- Navbar closed -->
 
   <div class="container" style="text-align: center;">
-    
-    <!-- <ul id="tabs-nav" class="list-unstyled">
-        <a class="btn active" id="every">All</a>
-        <a class="btn" id="frontend">frontend</a>
-        <a class="btn" id="backend">Backend</a>
-        <a class="btn" id="QA">QA</a>
-        <a class="btn" id="Mobile">Mobile Developer</a>
-        <a class="btn" id="Devops">DevOps </a>
-        <div class="spacer"></div>
-    </ul> -->
+   
     <div id="parent" class="tabs-content text-center">
-        <!-- <div id="every" class="every tab-content">
-            <a  onclick="handle(event)" href="#"><img src="../../images/images:icon/Group 1000004168.webp" alt="ReactJS" width="50" height="50"
-                    loading="lazy"><span>React.js</span></a>
-            <a  onclick="handle(event)"  href="#"><img src="cubexo-images/Angular-Logo.webp" alt="Angular" width="50" height="50"
-                    loading="lazy"><span>AngularJS</span></a>
-            <a  onclick="handle(event)"  href="#"><img src="cubexo-images/HTML5-Logo.webp" alt="HTML5" width="50" height="50"
-                    loading="lazy"><span>HTML5</span></a>
-            <a  onclick="handle(event)" href="#"><img src="cubexo-images/Vue.js-Logo.webp" alt="Vue.js" width="50" height="50"
-                    loading="lazy"><span>Vue.js</span></a>
-            <a  onclick="handle(event)" href="#"><img src="cubexo-images/J-Query-Logo.webp" alt="J-Query" width="50" height="50"
-                    loading="lazy"><span>jQuery</span></a>
-            <a onclick="handle(event)"  href="#"><img src="cubexo-images/JavaScript-Logo.webp" alt="Javscript" width="50" height="50"
-                    loading="lazy"><span>JavaScript</span></a>
-            <a  onclick="handle(event)" href="#"><img src="cubexo-images/Bootstrap-Logo.webp" alt="Botstrap" width="50" height="50"
-                    loading="lazy"><span>BootStrap</span></a>
-            <a onclick="handle(event)"  href="#"><img src="cubexo-images/UI-UX-Logo.webp" alt="UI UX" width="50" height="50"
-                    loading="lazy"><span>UI UX</span></a>
-            <a  onclick="handle(event)" href="#"><img alt="Java" src="cubexo-images/Java-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">Java</span></a>
-            <a  onclick="handle(event)" href="#"><img alt="Dot Net" src="cubexo-images/Dot-Net-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">Dot Net</span></a>
-            <a  onclick="handle(event)" href="#"><img alt="Node.js" src="cubexo-images/Node.js-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">Node.js</span></a>
-            <a  onclick="handle(event)" href="#"><img alt="PHP" src="cubexo-images/PHP-Logo.webp" width="50" height="50" loading="lazy"><span
-                    class="d-block">PHP</span></a>
-
-            <a onclick="handle(event)"  href="#"><img alt="C" src="cubexo-images/C-Logo.webp" width="50" height="50" loading="lazy"><span
-                    class="d-block">C</span></a>
-            <a  onclick="handle(event)" href="#"><img alt=".Net Core" src="cubexo-images/Dot-Net-Core-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">.Net Core</span></a>
-            <a  onclick="handle(event)" href="#"><img alt="Cake PHP" src="cubexo-images/PHP-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">Cake PHP</span></a>
-
-            <a onclick="handle(event)"  href="#"><img alt="Python" src="cubexo-images/Python-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">Python</span></a>
-
-
-            <a  onclick="handle(event)" href="#"><img alt="MongoDB" src="cubexo-images/MongoDB-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">MongoDB</span></a>
-            <a onclick="handle(event)"  href="#"><img alt="MySQL" src="cubexo-images/MySQL-Logo.webp" width="50" height="50"
-                    loading="lazy"><span class="d-block">MySQL</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/api.png" alt="ReactJS" width="50" height="50" loading="lazy"><span>API
-                    Testing</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/load.png" alt="Angular" width="50" height="50" loading="lazy"><span>Load
-                    Testing</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/automation.png" alt="HTML5" width="50" height="50"
-                    loading="lazy"><span>Automation</span></a>
-            <a onclick="handle(event)"  href="#"><img src="./icons/manual.png" alt="Vue.js" width="50" height="50"
-                    loading="lazy"><span>Manual</span></a>
-            <a onclick="handle(event)"  href="#"><img src="./icons/flutter.png" alt="ReactJS" width="50" height="50"
-                    loading="lazy"><span>Flutter</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/ionic.png" alt="Angular" width="50" height="50"
-                    loading="lazy"><span>Ionic</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/andriod.png" alt="HTML5" width="50" height="50"
-                    loading="lazy"><span>Android</span></a>
-            <a onclick="handle(event)"  href="#"><img src="./icons/ios.png" alt="Vue.js" width="50" height="50"
-                    loading="lazy"><span>IOS</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/docker.webp" alt="Dcoker" width="50" height="50"
-                    loading="lazy"><span>Docker</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/Ansible_logo.svg.png" alt="Ansible" width="50" height="50"
-                    loading="lazy"><span>Ansible</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/AWS.svg" alt="AWS" width="50" height="50"
-                    loading="lazy"><span>AWS</span></a>
-            <a  onclick="handle(event)" href="#"><img src="./icons/Jenkins.svg" alt="Jenkins" width="50" height="50"
-                    loading="lazy"><span>Jenkins</span></a>
-
-        </div> -->
+       
         <h2 class="apply-text">Front-End</h2>
 
         <div id="frontend" class="frontend tab-content">
@@ -257,11 +182,11 @@
                     loading="lazy"><span>Jenkins</span></a>
         </div>
     </div>
-    <div class="elementor-button-wrapper">
+    <div  class="elementor-button-wrapper">
         <a href="./technology.html" class="elementor-button-link elementor-button elementor-size-md "
             style="text-decoration: none;" role="button">
             <span class="elementor-button-content-wrapper">
-                <a href="../../apply_client.html"><button style="background-color:#1bbc9b; color: white;
+                <a href="../../apply_client.html"><button aria-label="fill" style="background-color:#1bbc9b; color: white;
                 font-weight: 600;
                    border-radius: 10px; padding:10px"  class="elementor-button-text">Fill Complete Form</button></a> 
             </span>
@@ -269,55 +194,63 @@
     </div>
 </div>
 <div class="container highlight">
-    <hr />
-  </div>
-  <div class="part">
-    <div class="container part-container">
-      <div class="row">
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/certificate Logo/Group 1000004140.webp" class="client1-img">
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/certificate Logo/Group 1000004134.webp" class="client1-img">
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/certificate Logo/Group 1000004139.webp" class="client1-img">
-        </div>
-       </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/certificate Logo/Group 1000004137.webp" class="client1-img">
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/mobileapp.png" class="client1-img" />
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/top.png" class="client1-img" />
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
-          <img src="../../images/redtop.png" class="client1-img" />
-        </div>
-        </div>
-        <div class="col-md-3 col-6">
-          <div class="client-section">
+        <hr />
+      </div>
+      <div class="part">
+        <div class="container part-container">
+          <div class="row">
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/bestweb.webp" alt="logo" loading="lazy" class="client1-img"
+                  style="width: 100%; height: auto;">
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/cleintsay.webp" alt="img" loading="lazy" class="client1-img"
+                  style="width: 100%; height: auto;">
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/findus.webp" alt="img" loading="lazy" class="client1-img"
+                  style="width: 100%; height: auto;">
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/goodfirms.webp" alt="img" loading="lazy" class="client1-img"
+                  style="width: 100%; height: auto;">
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/iso.webp" class="client1-img" alt="img" loading="lazy"
+                  style="width: 100%; height: auto;" />
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/topapp.webp" class="client1-img" alt="img" loading="lazy"
+                  style="width: 100%; height: auto;" />
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
+                <img src="./images/certificate Logo/topsoftware.webp" class="client1-img" alt="img" loading="lazy"
+                  style="width: 100%; height: auto;" />
+              </div>
+            </div>
+            <div class="col-md-3 col-6">
+              <div class="client-section">
   
-          <img src="../../images/findus.png" class="client1-img" />
+                <img src="./images/certificate Logo/topweb.webp" class="client1-img" alt="img" loading="lazy"
+                  style="width: 100%; height: auto;" />
+              </div>
+            </div>
+          </div>
         </div>
-  </div>
-  </div>
-  </div>
-  </div>
+      </div>
   </div>
         
   
@@ -330,9 +263,9 @@
               <p class="copyright">© Copyright 2023 CubexO. All Rights Reserved</p>
             </div>
             <div>
-              <a href="https://m.facebook.com/cubexoLLP"><img class="copyimg" src="../images/facebook.png"></a>
-              <a href="https://twitter.com/CubexoSolutios"><img class="copyimg" src="../images/twitter.png"></a>
-              <a href="https://www.linkedin.com/company/cubexo-software-solutions/"><img class="copyimg" src="../images/link.png"></a>
+              <a aria-label="fb" href="https://m.facebook.com/cubexoLLP"><img class="copyimg" src="../images/facebook.png"></a>
+              <a aria-label="twiiter" href="https://twitter.com/CubexoSolutios"><img class="copyimg" src="../images/twitter.png"></a>
+              <a aria-label="linkedin" href="https://www.linkedin.com/company/cubexo-software-solutions/"><img class="copyimg" src="../images/link.png"></a>
               </div>
             </div>
           </div>
@@ -346,7 +279,7 @@
         
           <div class="modal-header d-block p-0">
               <a href="./Geeks.html" class="popup-btn" style="text-align: center;"><i class="arrow"></i></a>
-            <button type="button" class="btn-clse" data-bs-dismiss="modal" aria-label="Close">
+            <button aria-label="btn" type="button" class="btn-clse" data-bs-dismiss="modal" aria-label="Close">
               <img src="../images/close-round.png" style="max-height:15px;">
             </button>
             <img src="../images/Group 1000003783 (2)-page-1.webp" alt="popup-image" style="max-width: 100%;">
@@ -360,7 +293,6 @@
  
 
  
-  <!-- <script src="//code.tidio.co/fk51al7g8pbghgqzkfqspb7tnvf8bupq.js" async></script> -->
   <script>
         !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.async=!0,p.src=s.api_host+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="capture identify alias people.set people.set_once set_config register register_once unregister opt_out_capturing has_opted_out_capturing opt_in_capturing reset isFeatureEnabled onFeatureFlags".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
         posthog.init('phc_xe892NkrPuKyhp6APvwkilZtyQrJO61MHckGdboLDex',{api_host:'https://app.posthog.com'})
