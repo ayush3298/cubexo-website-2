@@ -437,6 +437,7 @@ body {
 
 .serve {
   width: 100%;
+  height: auto;
 }
 
 .tabs-nav {
