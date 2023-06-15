@@ -466,6 +466,8 @@ body {
 @media(max-width:447px){
     .job{
         display: table;
+        width: 100%;
+
     }
   .job-heading{
     justify-content: left;
