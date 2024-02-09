@@ -1342,108 +1342,7 @@ $(document).ready(function () {
      Map
      _____________________________________ */
 
-    function initMap(map) {
 
-      // centered map point
-      var latlng = new google.maps.LatLng(40.72020106, -73.97163391);
-
-      // points marker info and coordinates
-      var points = [
-        ['<div class="wrapper"><h4>Kounter Office</h4><h5>Opening Hours</h5><p>Mo – Fr: 08:30 – 20:00</p></div>', 40.7486332, -73.9797129],
-        ['<div class="wrapper"><h4>Kounter Agency</h4><h5>Opening Hours</h5><p>Mo – Fr: 08:30 – 20:00</p></div>', 40.66810, -73.94480]
-      ];
-      // marker
-      var iconMarker = 'images/marker.png';
-
-      // marker size
-      var markerSize = new google.maps.Size(50, 49);
-
-
-      // map options
-      var options = {
-        zoom: 11,
-        center: latlng,
-        mapTypeId: google.maps.MapTypeId.TERRAIN,
-        mapTypeControl: false,
-        streetViewControl: false,
-        scrollwheel: false,
-
-        // styles for monchrome map
-        styles: [{
-          featureType: 'road',
-          elementType: 'geometry',
-          stylers: [
-            {'visibility': 'simplified'}
-          ]
-        }, {
-          featureType: 'poi',
-          elementType: 'label',
-          stylers: [
-            {'visibility': 'off'}
-          ]
-        }, {
-          featureType: 'all',
-          stylers: [
-            {saturation: -100},
-            {gamma: 0.90}
-          ]
-        }]
-
-      };
-
-      var setMap = new google.maps.Map(map[0], options);
-
-      var info = new google.maps.InfoWindow();
-
-
-      // custom infoWindow
-      google.maps.event.addListener(info, 'domready', function () {
-
-        // Reference to the DIV that wraps the bottom of infowindow
-        var iwOuter = $('.gm-style-iw');
-
-        var iwBackground = iwOuter.prev();
-        // Removes background shadow DIV
-        iwBackground.children(':nth-child(2)').css({
-          'box-shadow': 'none',
-          'background-color': 'rgba(0, 0, 0, 0.1)'
-        });
-
-        // Changes the desired tail shadow color.
-        iwBackground.children(':nth-child(3)').find('div').children().css({
-          'box-shadow': 'none',
-          'border-top-color': 'rgba(0, 0, 0, 0.1)'
-        });
-
-      });
-      var marker, i;
-      var image = {
-        url: iconMarker,
-        scaledSize: markerSize
-      };
-
-      for (i = 0; i < points.length; i++) {
-        var stations = points[i][0];
-        marker = new google.maps.Marker({
-          position: new google.maps.LatLng(points[i][1], points[i][2]),
-          map: setMap,
-          icon: image
-        });
-        google.maps.event.addListener(marker, 'click', (function (stations) {
-          return function () {
-            info.setContent(stations);
-            info.open(setMap, this);
-          }
-        })(stations));
-      }
-    }
-
-    var map = $('#map');
-
-    if (map.length) {
-      google.maps.event.addDomListener(window, 'load', initMap(map));
-      google.maps.event.addDomListener(window, 'resize', initMap(map));
-    }
 
     /* _____________________________________
 
@@ -1463,3 +1362,5 @@ $(document).ready(function () {
   }
 )
 ;
+
+
